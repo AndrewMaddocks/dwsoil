@@ -1,0 +1,16 @@
+//global
+@import "./global/global.scss";
+
+// pages
+@import "./pages/services.scss";
+@import "./pages/contact.scss";
+
+// nav
+@import "./nav/nav.scss";
+
+// footer
+@import "./footer/footer.scss";
+
+// abstracts
+@import "./abstracts/mixins.scss";
+@import "./abstracts/variables.scss";
