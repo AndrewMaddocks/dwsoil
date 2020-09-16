@@ -3,11 +3,18 @@ import React from "react";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
+import Mission from "./components/Mission";
+import Whatwedo from "./components/Whatwedo";
+import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <div className="App">
-      <Home />
       <Nav />
+      <Home />
+      <Mission />
+      <Whatwedo />
+      <Testimonials />
+
       <Footer />
     </div>
   );
