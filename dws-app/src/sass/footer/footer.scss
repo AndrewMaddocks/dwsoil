@@ -1,0 +1,26 @@
+.footer-container {
+  height: 25vh;
+  display: flex;
+  //   justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  position: absolute;
+  // bottom: 0;
+  width: 100%;
+  .footer-title {
+    display: flex;
+    justify-content: flex-end;
+    // border: 2px solid red;
+    width: 19%;
+    h1 {
+      font-family: "Krona One", sans-serif;
+      //   krona one is a logo style option
+
+      color: white;
+      font-size: 5rem;
+      //   width: 20rem;
+      // border-bottom: 3px solid #f0d334;
+      // the border bottom is a logo style option
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.nav-container {
+  background-color: #181818;
+  height: 5rem;
+  //   border-bottom: 3px solid #7b90a1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    // border: 2px solid red;
+    h1 {
+      font-family: "Krona One", sans-serif;
+      color: white;
+      font-size: 3rem;
+    }
+  }
+
+  .links {
+    // border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60rem;
+    margin-left: 20rem;
+    height: 5rem;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+
+      &:hover {
+        color: #fcdd00;
+      }
+    }
+  }
+}

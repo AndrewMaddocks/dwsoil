@@ -1,0 +1,40 @@
+.home-container {
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: #afaeae;
+  .home-img {
+    height: 75vh;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  .home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 25rem;
+    left: 5rem;
+    font-size: 30px;
+    width: 58rem;
+    a {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      width: 25rem;
+      border: 2px solid black;
+      background-color: transparent;
+      color: black;
+      padding: 1rem 2rem;
+      font-size: 2.5rem;
+      margin-top: 2rem;
+
+      &:hover {
+        background-color: black;
+        // border: 2px solid #fcdd00;
+        color: #fcdd00;
+      }
+    }
+  }
+}

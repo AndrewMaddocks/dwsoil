@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#App,
+#root,
+#App {
+  min-height: 100%;
+  font-family: "Raleway", sans-serif;
+  overflow-y: scroll;
+  scroll-behavior: smooth; //<-----this is the secret
+}
