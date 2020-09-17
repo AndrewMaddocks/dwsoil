@@ -7,12 +7,14 @@
   width: 100%;
   z-index: 99;
   display: flex;
+  justify-content: space-around;
   .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20rem;
     // border: 2px solid red;
+    margin-right: 2rem;
     h1 {
       font-family: "Krona One", sans-serif;
       color: white;
@@ -23,15 +25,16 @@
   .links {
     // border: 2px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     width: 60rem;
-    margin-left: 20rem;
+    // margin-left: 20rem;
     height: 5rem;
     a {
       text-decoration: none;
       color: white;
       font-size: 2rem;
+      margin-right: 4rem;
 
       &:hover {
         color: #fcdd00;

@@ -23,7 +23,11 @@ function Mission() {
         </div>
         <div className="mission-image">
           {" "}
-          <img className="home-img" src={Missionimage} alt="oil rigs" />
+          <img
+            className="home-img"
+            src={Missionimage}
+            alt="healthy growing sunflower"
+          />
         </div>
       </div>
     </div>
