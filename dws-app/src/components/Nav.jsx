@@ -14,7 +14,7 @@ function Nav() {
       </div>
 
       <div className="links">
-        <a href="#home">HOME</a>
+        {/* <a href="#home">HOME</a> */}
         <a href="#services">SERVICES</a>
         <a href="#contact">CONTACT</a>
       </div>
